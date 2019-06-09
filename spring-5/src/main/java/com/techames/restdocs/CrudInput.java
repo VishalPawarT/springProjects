@@ -1,4 +1,4 @@
-package com.baeldung.restdocs;
+package com.techames.restdocs;
 
 import java.net.URI;
 import java.util.Collections;

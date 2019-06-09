@@ -1,4 +1,4 @@
-package com.baeldung.jsonb;
+package com.techames.jsonb;
 
 import java.util.ArrayList;
 import java.util.Collection;

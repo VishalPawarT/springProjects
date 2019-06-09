@@ -1,4 +1,4 @@
-package com.baeldung.assertions;
+package com.techames.assertions;
 
 import java.util.ArrayList;
 import java.util.Collection;

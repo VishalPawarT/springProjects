@@ -1,4 +1,4 @@
-package com.baeldung.web;
+package com.techames.web;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

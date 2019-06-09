@@ -1,4 +1,4 @@
-package com.baeldung.persistence;
+package com.techames.persistence;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.baeldung.web.Foo;
+import com.techames.web.Foo;
 
 @Component
 public class DataSetupBean implements InitializingBean {

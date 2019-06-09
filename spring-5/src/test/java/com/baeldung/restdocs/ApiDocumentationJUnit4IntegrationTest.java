@@ -1,8 +1,9 @@
 package com.baeldung.restdocs;
 
-import com.baeldung.restdocs.CrudInput;
-import com.baeldung.restdocs.SpringRestDocsApplication;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.techames.restdocs.CrudInput;
+import com.techames.restdocs.SpringRestDocsApplication;
+
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

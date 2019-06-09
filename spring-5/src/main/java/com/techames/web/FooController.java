@@ -1,11 +1,12 @@
-package com.baeldung.web;
+package com.techames.web;
 
-import com.baeldung.persistence.FooRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+
+import com.techames.persistence.FooRepository;
 
 import javax.annotation.PostConstruct;
 import javax.validation.constraints.Max;

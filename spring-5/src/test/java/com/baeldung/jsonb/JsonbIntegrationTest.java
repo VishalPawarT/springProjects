@@ -15,6 +15,9 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.techames.jsonb.Person;
+import com.techames.jsonb.Spring5Application;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Spring5Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Ignore

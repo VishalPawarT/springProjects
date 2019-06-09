@@ -1,4 +1,4 @@
-package com.baeldung.jdbc.autogenkey.repository;
+package com.techames.jdbc.autogenkey.repository;
 
 import java.util.HashMap;
 import java.util.Map;

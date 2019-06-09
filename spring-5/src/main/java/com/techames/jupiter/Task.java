@@ -1,4 +1,4 @@
-package com.baeldung.jupiter;
+package com.techames.jupiter;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

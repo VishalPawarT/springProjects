@@ -1,4 +1,4 @@
-package com.baeldung.restdocs;
+package com.techames.restdocs;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 

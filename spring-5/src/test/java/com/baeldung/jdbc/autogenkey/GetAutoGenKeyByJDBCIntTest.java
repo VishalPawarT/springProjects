@@ -12,8 +12,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.baeldung.jdbc.autogenkey.repository.MessageRepositoryJDBCTemplate;
-import com.baeldung.jdbc.autogenkey.repository.MessageRepositorySimpleJDBCInsert;
+import com.techames.jdbc.autogenkey.repository.MessageRepositoryJDBCTemplate;
+import com.techames.jdbc.autogenkey.repository.MessageRepositorySimpleJDBCInsert;
 
 @RunWith(SpringRunner.class)
 @Ignore

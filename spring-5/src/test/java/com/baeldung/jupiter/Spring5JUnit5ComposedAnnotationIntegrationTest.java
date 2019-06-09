@@ -5,6 +5,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 
+import com.techames.jupiter.SpringJUnit5Config;
+import com.techames.jupiter.Task;
+import com.techames.jupiter.TestConfig;
+
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

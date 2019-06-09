@@ -1,4 +1,4 @@
-package com.baeldung.assertions;
+package com.techames.assertions;
 
 public class CarBattery {
     private String charge;

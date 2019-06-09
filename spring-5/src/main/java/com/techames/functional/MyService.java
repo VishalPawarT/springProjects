@@ -1,4 +1,4 @@
-package com.baeldung.functional;
+package com.techames.functional;
 
 import java.util.Random;
 

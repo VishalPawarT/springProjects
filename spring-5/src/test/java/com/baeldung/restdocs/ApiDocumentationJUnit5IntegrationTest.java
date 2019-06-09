@@ -36,9 +36,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.baeldung.restdocs.CrudInput;
-import com.baeldung.restdocs.SpringRestDocsApplication;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.techames.restdocs.CrudInput;
+import com.techames.restdocs.SpringRestDocsApplication;
 
 @ExtendWith({ RestDocumentationExtension.class, SpringExtension.class })
 @SpringBootTest(classes = SpringRestDocsApplication.class)
