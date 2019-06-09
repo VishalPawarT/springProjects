@@ -1,7 +1,8 @@
-package com.baeldung.reactive.repository;
+package com.techames.reactive.repository;
 
-import com.baeldung.reactive.model.Account;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
+
+import com.techames.reactive.model.Account;
 
 public interface AccountMongoRepository extends ReactiveMongoRepository<Account, String> {
 }

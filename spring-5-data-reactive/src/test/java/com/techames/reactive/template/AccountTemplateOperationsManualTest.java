@@ -1,18 +1,24 @@
-package com.baeldung.reactive.template;
+package com.techames.reactive.template;
 
-import com.baeldung.reactive.Spring5ReactiveApplication;
-import com.baeldung.reactive.model.Account;
 import org.junit.Test;
+
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import com.techames.reactive.Spring5ReactiveApplication;
+import com.techames.reactive.model.Account;
+import com.techames.reactive.template.AccountTemplateOperations;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, classes = Spring5ReactiveApplication.class)

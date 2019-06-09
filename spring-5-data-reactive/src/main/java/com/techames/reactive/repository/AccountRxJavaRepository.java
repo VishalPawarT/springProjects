@@ -1,10 +1,11 @@
-package com.baeldung.reactive.repository;
+package com.techames.reactive.repository;
 
-import com.baeldung.reactive.model.Account;
 import io.reactivex.Observable;
 import io.reactivex.Single;
 import org.springframework.data.repository.reactive.RxJava2CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import com.techames.reactive.model.Account;
 
 @Repository
 public interface AccountRxJavaRepository extends RxJava2CrudRepository<Account, String>{

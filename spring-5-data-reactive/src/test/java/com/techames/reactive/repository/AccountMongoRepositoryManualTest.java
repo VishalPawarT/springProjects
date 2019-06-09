@@ -1,7 +1,5 @@
-package com.baeldung.reactive.repository;
+package com.techames.reactive.repository;
 
-import com.baeldung.reactive.Spring5ReactiveApplication;
-import com.baeldung.reactive.model.Account;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +7,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import com.techames.reactive.Spring5ReactiveApplication;
+import com.techames.reactive.model.Account;
+import com.techames.reactive.repository.AccountMongoRepository;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;

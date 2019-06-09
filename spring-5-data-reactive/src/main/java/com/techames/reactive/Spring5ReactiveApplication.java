@@ -1,4 +1,4 @@
-package com.baeldung.reactive;
+package com.techames.reactive;
 
 import com.mongodb.reactivestreams.client.MongoClient;
 import org.springframework.beans.factory.annotation.Autowired;

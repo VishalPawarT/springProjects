@@ -1,4 +1,4 @@
-package com.baeldung.reactive.model;
+package com.techames.reactive.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

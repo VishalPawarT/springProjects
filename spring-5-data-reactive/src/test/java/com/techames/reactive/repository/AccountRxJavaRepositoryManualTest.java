@@ -1,7 +1,5 @@
-package com.baeldung.reactive.repository;
+package com.techames.reactive.repository;
 
-import com.baeldung.reactive.Spring5ReactiveApplication;
-import com.baeldung.reactive.model.Account;
 import io.reactivex.Observable;
 import io.reactivex.Single;
 import org.junit.Test;
@@ -9,6 +7,10 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import com.techames.reactive.Spring5ReactiveApplication;
+import com.techames.reactive.model.Account;
+import com.techames.reactive.repository.AccountRxJavaRepository;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
