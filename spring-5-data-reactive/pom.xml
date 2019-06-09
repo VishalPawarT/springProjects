@@ -6,12 +6,13 @@
 	<name>spring-5-data-reactive</name>
     <packaging>jar</packaging>
 
-    <parent>
-        <artifactId>parent-boot-2</artifactId>
-        <groupId>com.baeldung</groupId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent-boot-2</relativePath>
-    </parent>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.4.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	
 
     <dependencies>
         <dependency>
@@ -73,8 +74,7 @@
             </plugin>
             <plugin>
                 <artifactId>kotlin-maven-plugin</artifactId>
-                <version>${kotlin-maven-plugin.version}</version>
-               <executions>
+                <executions>
                     <execution>
                         <id>compile</id>
                         <goals>
@@ -155,6 +155,42 @@
                 </executions>
             </plugin>
         </plugins>
+        <pluginManagement>
+        	<plugins>
+        		<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+        		<plugin>
+        			<groupId>org.eclipse.m2e</groupId>
+        			<artifactId>lifecycle-mapping</artifactId>
+        			<version>1.0.0</version>
+        			<configuration>
+        				<lifecycleMappingMetadata>
+        					<pluginExecutions>
+        						<pluginExecution>
+        							<pluginExecutionFilter>
+        								<groupId>
+        									org.jetbrains.kotlin
+        								</groupId>
+        								<artifactId>
+        									kotlin-maven-plugin
+        								</artifactId>
+        								<versionRange>
+        									[1.2.40,)
+        								</versionRange>
+        								<goals>
+        									<goal>compile</goal>
+        									<goal>test-compile</goal>
+        								</goals>
+        							</pluginExecutionFilter>
+        							<action>
+        								<ignore></ignore>
+        							</action>
+        						</pluginExecution>
+        					</pluginExecutions>
+        				</lifecycleMappingMetadata>
+        			</configuration>
+        		</plugin>
+        	</plugins>
+        </pluginManagement>
     </build>
 
     <properties>
