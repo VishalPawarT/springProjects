@@ -1,4 +1,4 @@
-package com.baeldung.jsonb;
+package com.techames.jsonb;
 
 import static org.junit.Assert.assertTrue;
 

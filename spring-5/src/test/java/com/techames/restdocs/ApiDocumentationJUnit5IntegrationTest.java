@@ -1,4 +1,4 @@
-package com.baeldung.restdocs;
+package com.techames.restdocs;
 
 import static java.util.Collections.singletonList;
 import static org.springframework.restdocs.headers.HeaderDocumentation.headerWithName;

@@ -1,6 +1,7 @@
-package com.baeldung.functional;
+package com.techames.functional;
 
 import static org.junit.Assert.assertTrue;
+
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.context.support.GenericWebApplicationContext;
 
 import com.techames.Spring5Application;
-import com.techames.functional.MyService;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Spring5Application.class)

@@ -1,4 +1,4 @@
-package com.baeldung.jupiter;
+package com.techames.jupiter;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

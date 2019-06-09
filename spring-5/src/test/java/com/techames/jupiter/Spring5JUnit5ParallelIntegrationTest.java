@@ -1,11 +1,12 @@
-package com.baeldung.jupiter;
+package com.techames.jupiter;
 
-import com.baeldung.Example1IntegrationTest;
-import com.baeldung.Example2IntegrationTest;
 import org.junit.experimental.ParallelComputer;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.Computer;
 import org.junit.runner.JUnitCore;
+
+import com.techames.Example1IntegrationTest;
+import com.techames.Example2IntegrationTest;
 
 class Spring5JUnit5ParallelIntegrationTest {
 

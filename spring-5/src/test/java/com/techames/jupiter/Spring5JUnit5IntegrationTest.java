@@ -1,4 +1,4 @@
-package com.baeldung.jupiter;
+package com.techames.jupiter;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

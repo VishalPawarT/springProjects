@@ -1,4 +1,4 @@
-package com.baeldung.jupiter;
+package com.techames.jupiter;
 
 import static org.junit.Assert.assertNotNull;
 

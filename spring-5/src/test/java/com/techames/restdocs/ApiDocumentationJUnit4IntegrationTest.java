@@ -1,4 +1,4 @@
-package com.baeldung.restdocs;
+package com.techames.restdocs;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.techames.restdocs.CrudInput;

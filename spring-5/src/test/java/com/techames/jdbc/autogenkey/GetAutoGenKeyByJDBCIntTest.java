@@ -1,4 +1,4 @@
-package com.baeldung.jdbc.autogenkey;
+package com.techames.jdbc.autogenkey;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -22,7 +22,7 @@ public class GetAutoGenKeyByJDBCIntTest {
     @Configuration
     @EnableAutoConfiguration
     @PropertySource("classpath:autogenkey-db.properties")
-    @ComponentScan(basePackages = { "com.baeldung.jdbc.autogenkey.repository" })
+    @ComponentScan(basePackages = { "com.techames.jdbc.autogenkey.repository" })
     public static class SpringConfig {
 
     }

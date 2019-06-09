@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.techames;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

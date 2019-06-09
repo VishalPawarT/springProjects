@@ -1,4 +1,4 @@
-package com.baeldung.connectionpool;
+package com.techames.connectionpool;
 
 import static org.junit.Assert.*;
 
