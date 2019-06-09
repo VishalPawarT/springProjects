@@ -1,3 +1,3 @@
-package com.baeldung.springbootkotlin
+package com.techames.springbootkotlin
 
 data class HelloDto(val greeting: String)

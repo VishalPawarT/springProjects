@@ -1,10 +1,10 @@
-package com.baeldung.springbootkotlin
+package com.techames.springbootkotlin
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
 
-@SpringBootApplication(scanBasePackages = arrayOf("com.baeldung.springbootkotlin"), exclude = arrayOf(SecurityAutoConfiguration::class))
+@SpringBootApplication(scanBasePackages = arrayOf("com.techames.springbootkotlin"), exclude = arrayOf(SecurityAutoConfiguration::class))
 class KotlinDemoApplication
 
 fun main(args: Array<String>) {

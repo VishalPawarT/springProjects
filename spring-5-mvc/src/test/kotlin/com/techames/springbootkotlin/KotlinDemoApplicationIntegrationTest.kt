@@ -1,4 +1,4 @@
-package com.baeldung.springbootkotlin
+package com.techames.springbootkotlin
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
