@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package com.techames.config;
 
 import org.springframework.boot.SpringApplication;
 
