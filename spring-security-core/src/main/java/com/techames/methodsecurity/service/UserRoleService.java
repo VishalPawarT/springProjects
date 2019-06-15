@@ -1,13 +1,10 @@
-package org.baeldung.methodsecurity.service;
+package com.techames.methodsecurity.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 import javax.annotation.security.RolesAllowed;
 
-import org.baeldung.methodsecurity.annotation.IsViewer;
-import org.baeldung.methodsecurity.entity.CustomUser;
-import org.baeldung.methodsecurity.repository.UserRoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PostAuthorize;
@@ -17,6 +14,10 @@ import org.springframework.security.access.prepost.PreFilter;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
+
+import com.techames.methodsecurity.annotation.IsViewer;
+import com.techames.methodsecurity.entity.CustomUser;
+import com.techames.methodsecurity.repository.UserRoleRepository;
 
 @Service
 public class UserRoleService {

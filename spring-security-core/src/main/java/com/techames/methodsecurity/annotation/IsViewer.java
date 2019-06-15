@@ -1,4 +1,4 @@
-package org.baeldung.methodsecurity.annotation;
+package com.techames.methodsecurity.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

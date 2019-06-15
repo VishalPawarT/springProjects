@@ -1,4 +1,4 @@
-package org.baeldung.auditing;
+package com.techames.auditing;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

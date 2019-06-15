@@ -1,4 +1,4 @@
-package org.baeldung.methodsecurity.config;
+package com.techames.methodsecurity.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

@@ -1,15 +1,16 @@
-package org.baeldung.methodsecurity.repository;
+package com.techames.methodsecurity.repository;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.baeldung.methodsecurity.entity.CustomUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import com.techames.methodsecurity.entity.CustomUser;
 
 @Service
 public class UserRoleRepository {

@@ -1,7 +1,8 @@
-package org.baeldung.repository;
+package com.techames.repository;
 
-import org.baeldung.entity.Task;
 import org.springframework.data.repository.CrudRepository;
+
+import com.techames.entity.Task;
 
 public interface TaskRepository extends CrudRepository<Task, Long> {
 

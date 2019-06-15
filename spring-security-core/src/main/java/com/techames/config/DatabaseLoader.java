@@ -1,10 +1,11 @@
-package org.baeldung.config;
+package com.techames.config;
 
-import org.baeldung.entity.Task;
-import org.baeldung.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import com.techames.entity.Task;
+import com.techames.repository.TaskRepository;
 
 @Component
 public class DatabaseLoader implements CommandLineRunner {

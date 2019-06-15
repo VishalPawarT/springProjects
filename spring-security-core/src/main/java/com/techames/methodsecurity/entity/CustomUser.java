@@ -1,4 +1,4 @@
-package org.baeldung.methodsecurity.entity;
+package com.techames.methodsecurity.entity;
 
 import java.util.Collection;
 

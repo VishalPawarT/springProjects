@@ -1,4 +1,4 @@
-package org.baeldung.methodsecurity.service;
+package com.techames.methodsecurity.service;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;

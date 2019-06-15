@@ -1,8 +1,7 @@
-package org.baeldung.methodsecurity;
+package org.techames.methodsecurity;
 
 import static org.junit.Assert.*;
 
-import org.baeldung.methodsecurity.service.SystemService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +11,8 @@ import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import com.techames.methodsecurity.service.SystemService;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration
