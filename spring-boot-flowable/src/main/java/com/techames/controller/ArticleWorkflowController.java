@@ -1,4 +1,4 @@
-package com.baeldung.controller;
+package com.techames.controller;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.baeldung.domain.Approval;
-import com.baeldung.domain.Article;
-import com.baeldung.service.ArticleWorkflowService;
+import com.techames.domain.Approval;
+import com.techames.domain.Article;
+import com.techames.service.ArticleWorkflowService;
 
 @RestController
 public class ArticleWorkflowController {

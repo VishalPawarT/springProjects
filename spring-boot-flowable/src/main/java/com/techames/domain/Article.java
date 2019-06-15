@@ -1,4 +1,4 @@
-package com.baeldung.domain;
+package com.techames.domain;
 
 public class Article {
 

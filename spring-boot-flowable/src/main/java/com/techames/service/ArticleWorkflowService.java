@@ -1,4 +1,4 @@
-package com.baeldung.service;
+package com.techames.service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.baeldung.domain.Approval;
-import com.baeldung.domain.Article;
+import com.techames.domain.Approval;
+import com.techames.domain.Article;
 
 @Service
 public class ArticleWorkflowService {

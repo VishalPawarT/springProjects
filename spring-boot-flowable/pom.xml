@@ -7,12 +7,15 @@
 	<packaging>war</packaging>
 	<name>spring-boot-flowable</name>
 	<description>Spring Boot Flowable Module</description>
+	
 	<parent>
-		<artifactId>parent-boot-2</artifactId>
-		<groupId>com.baeldung</groupId>
-		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../parent-boot-2</relativePath>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.4.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
