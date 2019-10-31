@@ -50,7 +50,7 @@
 
 
     <properties>
-        <env.camel.version>2.18.1</env.camel.version>
+        <env.camel.version>2.24.2</env.camel.version>
         <env.spring.version>4.3.4.RELEASE</env.spring.version>
     </properties>
 
